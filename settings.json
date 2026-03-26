@@ -9,6 +9,7 @@
     "ip": "DesiSMPFAHH.aternos.me",
     "port": 61550,
     "version": "1.21.11"
+    "try-creative": false
   },
   "position": {
     "enabled": true,
@@ -38,12 +39,7 @@
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 30000,
-    "periodic-rejoin": {
-      "enabled": true,
-      "min-interval": 20,
-      "max-interval": 60
-    }
+    "max-reconnect-delay": 120000,
   },
   "movement": {
     "enabled": true,
